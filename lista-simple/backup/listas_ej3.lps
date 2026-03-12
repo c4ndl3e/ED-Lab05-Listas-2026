@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="listas_ej3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <UnitName Value="uListaEnlazadaSimpleSetAt"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="232"/>
+        <CursorPos X="25" Y="248"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="uListaEnlazadaSimpleSetAt.pas"/>
+        <Caret Line="253" Column="26" TopLine="225"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="247" Column="36" TopLine="227"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="245" Column="18" TopLine="229"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="252" Column="30" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="255" Column="36" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="253" Column="31" TopLine="228"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="246" Column="23" TopLine="229"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="256" Column="17" TopLine="230"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="243" Column="40" TopLine="231"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="248" Column="30" TopLine="231"/>
+      </Position>
+      <Position>
+        <Filename Value="ulistaenlazadasimplesetat.pas"/>
+        <Caret Line="258" Column="26" TopLine="231"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

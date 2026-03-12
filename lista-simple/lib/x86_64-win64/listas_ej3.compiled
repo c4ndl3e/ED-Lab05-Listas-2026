@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1525895209"/>
+  <Params Value="-MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq &quot;-FuC:\Users\ericv\Desktop\Universidad\Asignaturas\Primero\2º Cuatrimestre\Estructura de Datos\GitHub\Repo 5 LISTAS\lista-simple\&quot; &quot;-FUC:\Users\ericv\Desktop\Universidad\Asignaturas\Primero\2º Cuatrimestre\Estructura de Datos\GitHub\Repo 5 LISTAS\lista-simple\lib\x86_64-win64\&quot; &quot;-FEC:\Users\ericv\Desktop\Universidad\Asignaturas\Primero\2º Cuatrimestre\Estructura de Datos\GitHub\Repo 5 LISTAS\lista-simple\&quot; &quot;-oC:\Users\ericv\Desktop\Universidad\Asignaturas\Primero\2º Cuatrimestre\Estructura de Datos\GitHub\Repo 5 LISTAS\lista-simple\listas_ej3.exe&quot; listas_ej3.pas"/>
+</CONFIG>

@@ -36,30 +36,30 @@ type
 
 implementation
 
-    procedure initialize(var list: tListaSimple); {--> O(1)}
+    procedure initialize(var list: tListaSimple);
     begin
         list.first := nil; // Inicializa la lista vacía
         list.last := nil; // Inicializa la lista vacía
     end;
 
-    function is_empty(list: tListaSimple): boolean; {--> O(1)}
+    function is_empty(list: tListaSimple): boolean;
     begin
         is_empty := list.first = nil; // Verifica si la lista está vacía
     end;
 
-    function first(list: tListaSimple): integer; {--> O(1)}
+    function first(list: tListaSimple): integer;
     begin
         if not is_empty(list) then
             first := list.first^.info; // Devuelve el primer elemento de la lista
     end;
 
-    function last(list: tListaSimple): integer;  {--> O(1)}
+    function last(list: tListaSimple): integer;
     begin
         if not is_empty(list) then
             last := list.last^.info; // Devuelve el último elemento de la lista
     end;
 
-    procedure insert_at_end(var list: tListaSimple; x: integer); {--> O(1)}
+    procedure insert_at_end(var list: tListaSimple; x: integer);
     var
         newNode: ^nodo;
     begin
@@ -73,7 +73,7 @@ implementation
         list.last := newNode; // Actualiza el último nodo de la lista
     end;
 
-    procedure insert_at_begin(var list: tListaSimple; x: integer); {--> O(1)}
+    procedure insert_at_begin(var list: tListaSimple; x: integer);
     var
         newNode: ^nodo;
     begin
@@ -85,7 +85,7 @@ implementation
             list.last := newNode; // Si la lista estaba vacía, el nuevo nodo es también el último
     end;
 
-    procedure delete_at_end(var list: tListaSimple); {--> O(n)}
+    procedure delete_at_end(var list: tListaSimple);
     var
         current, prev: ^nodo;
     begin
@@ -113,7 +113,7 @@ implementation
         end;
     end;
 
-    procedure delete_at_begin(var list: tListaSimple); {--> O(1)}
+    procedure delete_at_begin(var list: tListaSimple);
     var
         temp: ^nodo;
     begin
@@ -127,7 +127,7 @@ implementation
         end;
     end;
 
-    procedure delete(var list: tListaSimple; x: integer); {--> O(n)}
+    procedure delete(var list: tListaSimple; x: integer);
     var
         current, prev: ^nodo;
     begin
@@ -150,7 +150,7 @@ implementation
         end;
     end;
 
-    function in_list(list: tListaSimple; x: integer): boolean; {--> O(n)}
+    function in_list(list: tListaSimple; x: integer): boolean;
     var
         current: ^nodo;
     begin
@@ -160,7 +160,7 @@ implementation
         in_list := current <> nil; // Devuelve true si se encontró el elemento
     end;
 
-    function rec_in_list(list: tListaSimple; x: integer): boolean; {--> O(n)}
+    function rec_in_list(list: tListaSimple; x: integer): boolean;
     var
         resto : tListaSimple;
     begin
@@ -175,7 +175,7 @@ implementation
         end;
     end;
 
-    function to_string(list: tListaSimple): string; {--> O(n)}
+    function to_string(list: tListaSimple): string;
     var
         current: ^nodo;
         str: string;
@@ -190,7 +190,7 @@ implementation
         to_string := str; // Devuelve la representación en cadena de la lista
     end;
 
-    procedure clear(var list: tListaSimple);   {--> O(n)}
+    procedure clear(var list: tListaSimple);
     var
         temp: ^nodo;
     begin
@@ -203,7 +203,7 @@ implementation
         list.last := nil; // La lista está vacía
     end;
 
-    function num_elems(list: tListaSimple): integer; {--> O(n)}
+    function num_elems(list: tListaSimple): integer;
     var
         current: ^nodo;
         count: integer;
@@ -218,7 +218,7 @@ implementation
         num_elems := count; // Devuelve el número de elementos en la lista
     end;
 
-    procedure copy(list: tListaSimple; var c2: tListaSimple);  {--> O(n)}
+    procedure copy(list: tListaSimple; var c2: tListaSimple);
     var
         current: ^nodo;
     begin
